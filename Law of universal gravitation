@@ -1,0 +1,18 @@
+#
+# 거리에 따른 만유인력 시각화하기
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+m1 = 5
+m2 = 15
+G = 6.673*(10**-11)
+r = np.arange(50, 301, 50)
+ind = np.arange(len(r))
+F = G*m1*m2/(r**2)
+plt.plot(ind, F, 'go-')
+plt.xlabel('distance in metets')
+plt.ylabel('gravitational force in newtons')
+plt.xticks(ind, r)
+plt.show()
