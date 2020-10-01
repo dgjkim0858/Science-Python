@@ -1,4 +1,4 @@
-# Science Programming
+# Science Python
 
 만유인력의 법칙(Law of universal gravitation) 실행 결과<br>
 ![sci1](https://user-images.githubusercontent.com/69303473/94758871-64459380-03d9-11eb-9ced-d24ed9953efc.PNG)<br>
