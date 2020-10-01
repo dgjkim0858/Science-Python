@@ -1,0 +1,14 @@
+#
+# 조화의 법칙(케플러 제3법칙)
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+a = np.arange(100, 5000, 100)
+p = (a**3)**0.5
+
+plt.plot(a, p, 'g-')
+plt.xlabel('radius')
+plt.ylabel('cycle of revolution')
+plt.show()
