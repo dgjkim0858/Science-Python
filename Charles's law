@@ -1,0 +1,16 @@
+#
+# 샤를의 법칙: 온도에 따른 기체의 부피 시각화
+#
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+V0 = int(input('0도 때의 기체의 부피: '))
+t = np.arange(-200, 201, 50)
+ind = np.arange(len(t))
+Vt = V0*(1+t/273)
+plt.plot(ind, Vt, 'g-')
+plt.xlabel('temperature')
+plt.ylabel('volume of gas')
+plt.xticks(ind, t)
+plt.show()
